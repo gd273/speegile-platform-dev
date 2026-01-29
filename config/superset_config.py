@@ -32,6 +32,10 @@ FEATURE_FLAGS = {
     "DRILL_BY": True,
 }
 
+# Restrict full datasource access to specific users only
+ALL_DATASOURCE_ACCESS_USERNAMES = ["admin"] # Only admin gets full access
+ENABLE_JAVASCRIPT_CONTROLS = False
+
 # ---------------------------------------------------------
 # 4. EMBEDDING & COOKIES (The tricky part)
 # ---------------------------------------------------------
